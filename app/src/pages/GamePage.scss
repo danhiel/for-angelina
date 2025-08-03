@@ -1,0 +1,51 @@
+.game-page-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  max-height: 100vh;
+  width: 100%;
+  background-image: url("../assets/background.gif");
+  object-fit: scale-down;
+  background-repeat: no-repeat;
+  background-position: 40%;
+}
+
+span {
+  font-size: 24px;
+  color: white;
+  padding-left: 6px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: white;
+}
+
+.blur {
+  animation: blur 4s linear;
+}
+
+.fadeIn {
+  height: 100vh;
+  animation: fadeIn 2s linear;
+}
+
+.dialogue-container {
+  height: 40vh;
+  margin-bottom: 16px;
+  width: 85%;
+  opacity: 0.9;
+  background-color: black;
+  border: white dashed 2px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  padding: 16px;
+}
+
+.response-container {
+  button {
+    margin: 12px;
+  }
+}
