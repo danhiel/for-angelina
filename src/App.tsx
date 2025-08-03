@@ -13,8 +13,8 @@ function App() {
 
   return (
     <>
-      {!hideGame && <StartPage startGame={() => StartGame()} />}
-      {hideGame && <GamePage />}
+      {hideGame && <StartPage startGame={() => StartGame()} />}
+      {!hideGame && <GamePage />}
     </>
   );
 }
