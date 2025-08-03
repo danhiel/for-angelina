@@ -42,6 +42,9 @@ export const GamePage = () => {
           onClick={() => {
             incrementDialogueCount();
           }}
+          onSkip={() => {
+            incrementDialogueCount();
+          }}
         />
       )}
       {!hideDialogue && dialogueCount == 3 && (

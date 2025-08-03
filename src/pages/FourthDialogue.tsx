@@ -10,7 +10,7 @@ export const FourthDialogue = (props: any) => {
       <hr />
       <TypeAnimation
         sequence={[
-          "Perfect! See you tomorrow :))",
+          "Perfect! See you soon :))",
           () => {
             setHideResponse(false);
           },

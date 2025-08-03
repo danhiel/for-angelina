@@ -10,9 +10,11 @@ export const FirstDialogue = (props: any) => {
       <hr />
       <TypeAnimation
         sequence={[
-          "hellooo!! i really do think you're cute, pretty, have an amazing personality, and have immaculate vibez. i know we only started talking recently...",
-          2000,
-          "...but im excited for our future adventures, starting off with making our first date just a tiny bit more special :)",
+          "hellooo good morning!! the way I asked you out on a date was pretty lame... so I created this app to help make it a tiny bit more special :)",
+          3000,
+          "i really do think you're cute, pretty, have an amazing personality, and have immaculate vibez. i know we only started talking recently...",
+          3000,
+          "...but im excited for our future adventures, starting off with this first date!",
           () => {
             setHideResponse(false);
           },

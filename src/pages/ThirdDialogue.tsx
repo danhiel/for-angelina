@@ -12,6 +12,8 @@ export const ThirdDialogue = (props: any) => {
       <TypeAnimation
         sequence={[
           `Okay lets do ${props.activity}! we can then be spontaneous about it after the activity! ok final thing -- I have a small gift for you!`,
+          3000,
+          "other peoples first dates they give roses, but hopefully this app + gift is more special :)",
           () => {
             setHideResponse(false);
           },
@@ -31,6 +33,7 @@ export const ThirdDialogue = (props: any) => {
           >
             Receive Gift
           </a>
+          <button onClick={() => props.onSkip()}>Skip gift</button>
         </div>
       )}
     </div>
